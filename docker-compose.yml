@@ -10,6 +10,7 @@ services:
       - DB_PASSWORD=oauth2
       - DB_HOST=db
       - DB_PORT=5432
+      - DJANGO_SECRET_KEY=secret123
   db:
     image: "postgres"
     environment:

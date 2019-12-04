@@ -129,3 +129,4 @@ USE_TZ = True
 STATIC_URL = '/static/'
 USE_X_FORWARDED_PORT = True
 STATIC_ROOT = os.path.join(BASE_DIR, 'static')
+LOGIN_URL = '/admin/login'
