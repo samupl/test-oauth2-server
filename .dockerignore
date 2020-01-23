@@ -1,0 +1,5 @@
+# Ignore these files when building an image
+.git
+.gitignore
+*.md
+docker-compose.yml
